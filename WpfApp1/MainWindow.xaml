@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="550">
     <Grid>
+<<<<<<< HEAD
         <Button x:Name="button" Content="Zheka Movch" HorizontalAlignment="Left" Margin="235,153,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+=======
+        <Button x:Name="button111" Content="MyButton" HorizontalAlignment="Left" Margin="187,145,0,0" VerticalAlignment="Top" Width="75"/>
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
 
     </Grid>
 </Window>

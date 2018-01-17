@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\
+=======
+C:\Users\student\Desktop\first\WpfApp1\obj\Debug\
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
 WpfApp1
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\student\Documents\GitHub\first\WpfApp1\App.xaml
+=======
+C:\Users\student\Desktop\first\WpfApp1\App.xaml
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
 11151548125
 
 14-1377534864

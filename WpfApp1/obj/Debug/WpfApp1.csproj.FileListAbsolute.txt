@@ -13,6 +13,12 @@ C:\Users\zorya\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateRes
 C:\Users\zorya\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\zorya\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\zorya\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+<<<<<<< HEAD
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.pdb
+=======
+C:\Users\student\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.pdb
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
