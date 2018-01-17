@@ -4,12 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\
+=======
+<<<<<<< HEAD
+C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\
+=======
+C:\Users\student\Desktop\first\WpfApp1\obj\Debug\
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
+>>>>>>> e1e76d610db2f84d62d3ac40a20cd91e1b780c17
 WpfApp1
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\zorya\Desktop\first\WpfApp1\App.xaml
+=======
+<<<<<<< HEAD
+C:\Users\student\Documents\GitHub\first\WpfApp1\App.xaml
+=======
+C:\Users\student\Desktop\first\WpfApp1\App.xaml
+>>>>>>> 86d369f97c1545fb631541854499f064323ccb1c
+>>>>>>> e1e76d610db2f84d62d3ac40a20cd91e1b780c17
 11151548125
 
 14786377630
