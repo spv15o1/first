@@ -26,6 +26,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void ImagePanel_Drop(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
