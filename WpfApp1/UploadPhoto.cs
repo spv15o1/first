@@ -4,19 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Drawing;
+using System.Windows.Media.Imaging;
 
 namespace WpfApp1
 {
-    public class UploadPhoto
+    static public class UploadPhoto
     {
-        public void Init(Window form)
-        {
-            throw new System.NotImplementedException();
-        }
 
         public Image[] OpenFile()
+       static public List<BitmapImage> images = new List<BitmapImage>();
+
+        static public void GetUploadPhoto(string [] files)
         {
-            throw new System.NotImplementedException();
+       
+            for(int i=0; i<files.Length; i++)
+            {
+                 images.Add(new BitmapImage(new Uri(files[i])));
+            } 
         }
+         
+
+ 
     }
 }

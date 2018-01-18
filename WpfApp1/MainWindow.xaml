@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525"
+        Drop="ImagePanel_Drop" AllowDrop="true" >
     <StackPanel>
         <Menu x:Name="menu" Height="24"/>
         <TabControl x:Name="tabControl" >
