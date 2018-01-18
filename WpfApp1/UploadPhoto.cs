@@ -12,7 +12,6 @@ namespace WpfApp1
     static public class UploadPhoto
     {
 
-        public Image[] OpenFile()
        static public List<BitmapImage> images = new List<BitmapImage>();
 
         static public void GetUploadPhoto(string [] files)
@@ -22,6 +21,7 @@ namespace WpfApp1
             {
                  images.Add(new BitmapImage(new Uri(files[i])));
             } 
+           
         }
          
 
