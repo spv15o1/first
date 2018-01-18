@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
-        <Menu x:Name="menu" Height="24"/>
+        <Menu x:Name="menu" Height="25">
+            <MenuItem Width="50" Height="25" Header="File" Click="MenuItem_Click">
+                <ListBoxItem Content="Download Image"/>
+            </MenuItem>
+        </Menu>
         <TabControl x:Name="tabControl" >
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5"/>

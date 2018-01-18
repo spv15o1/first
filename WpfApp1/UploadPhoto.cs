@@ -1,22 +1,31 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace WpfApp1
 {
-    public class UploadPhoto
+    static public class UploadPhoto
     {
-        public void Init(Window form)
-        {
-            throw new System.NotImplementedException();
-        }
+        public static List<BitmapImage> images = new List<BitmapImage>();
 
-        public Image[] OpenFile()
+        static public void OpenFile()
         {
-            throw new System.NotImplementedException();
+   
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Multiselect = true;
+            ofd.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
+            ofd.ShowDialog();
+            foreach(var v in ofd.FileNames)
+            {
+                images.Add(new BitmapImage(new Uri(v)));
+               
+            }
+           
         }
     }
 }
