@@ -26,7 +26,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-<<<<<<< HEAD
+
         private void ImagePanel_Drop(object sender, DragEventArgs e)
         {
             if (e.Data.GetDataPresent(DataFormats.FileDrop))
@@ -40,6 +40,11 @@ namespace WpfApp1
                 
             }
 
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            UploadPhoto.OpenFile();
         }
     }
 }

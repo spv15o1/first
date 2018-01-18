@@ -27,20 +27,6 @@ C:\Users\zorya\Desktop\repos — копия\WpfApp1\WpfApp1\obj\Debug\MainWindow
 C:\Users\zorya\Desktop\repos — копия\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
 C:\Users\zorya\Desktop\repos — копия\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
 C:\Users\zorya\Desktop\repos — копия\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
-C:\Users\zorya\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe.config
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.exe
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\Users\zorya\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe
-C:\Users\zorya\Desktop\first\WpfApp1\bin\Debug\WpfApp1.pdb
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\MainWindow.g.cs
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\App.g.cs
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\MainWindow.baml
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.g.resources
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
-C:\Users\zorya\Desktop\first\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.exe
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.pdb
