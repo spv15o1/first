@@ -27,6 +27,8 @@ namespace WpfApp1
                  images.Add(new BitmapImage(new Uri(files[i])));
             } 
 =======
+        public static List<BitmapImage> images = new List<BitmapImage>();
+
 >>>>>>> a285b6823d67b5327e318b33e655448440a47b7e
            
         }
