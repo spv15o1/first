@@ -9,8 +9,20 @@
         Drop="ImagePanel_Drop" AllowDrop="true" >
     <StackPanel>
         <Menu x:Name="menu" Height="25">
-            <MenuItem Width="50" Height="25" Header="File" Click="MenuItem_Click">
+            <MenuItem Width="50" Height="25" Header="File" Click="MenuItem_Click" Name="MenuI1">
                 <ListBoxItem Content="Download Image"/>
+            </MenuItem>
+            <MenuItem Header="Change language" >
+                <MenuItem Header="_English" Click="MenuItem_Click_1">
+                    <MenuItem.Icon>
+                        <Image Source="Resources\us.png" />
+                    </MenuItem.Icon>
+            </MenuItem>
+                <MenuItem Header="_Русский">
+                    <MenuItem.Icon>
+                        <Image Source="Resources\ru.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
         </Menu>
         <TabControl x:Name="tabControl" >

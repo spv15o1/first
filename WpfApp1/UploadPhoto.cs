@@ -24,7 +24,10 @@ namespace WpfApp1
             {
                  images.Add(new BitmapImage(new Uri(files[i])));
             }
-            MessageBox.Show("Изображения добавлены");
+            if (images.Count != 0)
+            {
+                MessageBox.Show("Изображения добавлены");
+            }
 
         }
         static public void OpenFile()
@@ -38,7 +41,10 @@ namespace WpfApp1
                 images.Add(new BitmapImage(new Uri(v)));
 
             }
-            MessageBox.Show("Изображения добавлены");
+            if (images.Count!=0)
+            {
+                MessageBox.Show("Изображения добавлены");
+            }
         }
 
 

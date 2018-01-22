@@ -46,5 +46,15 @@ namespace WpfApp1
         {
             UploadPhoto.OpenFile();
         }
+
+        private void MenuItem_ImageFailed(object sender, ExceptionRoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            MenuI1.Header = "fgdfg";
+        }
     }
 }
