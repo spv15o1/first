@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "B50D508E66D2ADDCF50BBCAFC09CEC5676B8FF55"
 =======
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "B93BEA08D787E8FEE6FD0E00790430FA7D216063"
 >>>>>>> parent of 9b2433b... Translation
+=======
+﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "5BEBF105FDBCA03A313B1495703252D2"
+>>>>>>> parent of 0bcbd98... Add message box
 =======
 ﻿#pragma checksum "..\..\MainWindow.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "5BEBF105FDBCA03A313B1495703252D2"
 >>>>>>> parent of 0bcbd98... Add message box
