@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="Manager Images" Height="350" Width="525"
-        Drop="ImagePanel_Drop" AllowDrop="true"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        Drop="ImagePanel_Drop" AllowDrop="true" >
     <StackPanel>
         <Menu x:Name="menu" Height="25">
             <MenuItem Width="50" Height="25" Header="File" Click="MenuItem_Click">
                 <ListBoxItem Content="Download Image"/>
             </MenuItem>
         </Menu>
-        <TabControl x:Name="tabControl" VerticalAlignment="Stretch">
+        <TabControl x:Name="tabControl" >
             <TabItem Header="TabItem">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
@@ -26,7 +26,8 @@
                     <ListView Margin="5"                               
                               x:Name="ImageList"
                               MouseDoubleClick="ImageList_MouseDoubleClick" 
-                              Height="{Binding Path=ActualHeight,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Window}}}"/>
+                               Height="{Binding Path=ActualHeight,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Window}}}"
+                              />
                 </Grid>
             </TabItem>
         </TabControl>

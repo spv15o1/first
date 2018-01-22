@@ -30,7 +30,6 @@ C:\Users\zorya\Desktop\repos — копия\WpfApp1\WpfApp1\obj\Debug\WpfApp1.cs
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.exe
 C:\Users\student\Documents\GitHub\first\WpfApp1\bin\Debug\WpfApp1.pdb
-C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\MainWindow.g.cs
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\App.g.cs
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
@@ -41,6 +40,7 @@ C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.Properties.Res
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.pdb
+<<<<<<< HEAD
 C:\Users\student\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\Users\student\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe
 C:\Users\student\Desktop\first\WpfApp1\bin\Debug\WpfApp1.pdb
@@ -56,3 +56,6 @@ C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource
 C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.pdb
+=======
+C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+>>>>>>> 53a5d1512b876295c8267d1fbc5acb6c80ae8350
