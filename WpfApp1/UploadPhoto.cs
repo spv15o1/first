@@ -23,6 +23,7 @@ namespace WpfApp1
             for(int i=0; i<files.Length; i++)
             {
                  images.Add(new BitmapImage(new Uri(files[i])));
+<<<<<<< HEAD
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,10 +33,16 @@ namespace WpfApp1
 =======
             MessageBox.Show("Изображения добавлены");
 >>>>>>> parent of 9b2433b... Translation
+=======
+            } 
+>>>>>>> parent of 0bcbd98... Add message box
 
+           
         }
         static public void OpenFile()
         {
+        
+
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
             ofd.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
@@ -47,12 +54,16 @@ namespace WpfApp1
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            // MessageBox.Show("Изображения добавлены");
 =======
 >>>>>>> 4c7bf536adc88847e59248a7c222cf0a1850a16e
 =======
             MessageBox.Show("Изображения добавлены");
 >>>>>>> parent of 9b2433b... Translation
+=======
+
+>>>>>>> parent of 0bcbd98... Add message box
         }
 
 
