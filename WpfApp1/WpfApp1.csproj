@@ -103,6 +103,7 @@
     <None Include="App.config" />
   </ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <ItemGroup>
 <<<<<<< HEAD
 =======
@@ -117,5 +118,7 @@
   </ItemGroup>
 =======
 >>>>>>> parent of 9c29988... add image watcher
+=======
+>>>>>>> parent of 9b2433b... Translation
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

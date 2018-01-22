@@ -25,9 +25,13 @@ namespace WpfApp1
                  images.Add(new BitmapImage(new Uri(files[i])));
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
            // MessageBox.Show("Изображения добавлены");
 =======
 >>>>>>> 4c7bf536adc88847e59248a7c222cf0a1850a16e
+=======
+            MessageBox.Show("Изображения добавлены");
+>>>>>>> parent of 9b2433b... Translation
 
         }
         static public void OpenFile()
@@ -42,9 +46,13 @@ namespace WpfApp1
 
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
            // MessageBox.Show("Изображения добавлены");
 =======
 >>>>>>> 4c7bf536adc88847e59248a7c222cf0a1850a16e
+=======
+            MessageBox.Show("Изображения добавлены");
+>>>>>>> parent of 9b2433b... Translation
         }
 
 

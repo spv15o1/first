@@ -49,6 +49,7 @@ namespace WpfApp1
 
             this.FillImageList();
         }
+<<<<<<< HEAD
 
         private void FillImageList()
         {
@@ -74,5 +75,7 @@ namespace WpfApp1
 
         }
 
+=======
+>>>>>>> parent of 9b2433b... Translation
     }
 }
