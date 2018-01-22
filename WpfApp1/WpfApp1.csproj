@@ -102,6 +102,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
 <<<<<<< HEAD
 =======
@@ -114,5 +115,7 @@
     <Resource Include="RABBIT1.jpg" />
 >>>>>>> 53a5d1512b876295c8267d1fbc5acb6c80ae8350
   </ItemGroup>
+=======
+>>>>>>> parent of 9c29988... add image watcher
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
