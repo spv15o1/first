@@ -24,7 +24,10 @@ namespace WpfApp1
             {
                  images.Add(new BitmapImage(new Uri(files[i])));
             }
-            MessageBox.Show("Изображения добавлены");
+<<<<<<< HEAD
+           // MessageBox.Show("Изображения добавлены");
+=======
+>>>>>>> 4c7bf536adc88847e59248a7c222cf0a1850a16e
 
         }
         static public void OpenFile()
@@ -38,7 +41,10 @@ namespace WpfApp1
                 images.Add(new BitmapImage(new Uri(v)));
 
             }
-            MessageBox.Show("Изображения добавлены");
+<<<<<<< HEAD
+           // MessageBox.Show("Изображения добавлены");
+=======
+>>>>>>> 4c7bf536adc88847e59248a7c222cf0a1850a16e
         }
 
 

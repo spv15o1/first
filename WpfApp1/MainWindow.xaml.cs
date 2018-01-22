@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace WpfApp1
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
 
@@ -45,6 +46,33 @@ namespace WpfApp1
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             UploadPhoto.OpenFile();
+
+            this.FillImageList();
         }
+
+        private void FillImageList()
+        {
+            foreach (var image in UploadPhoto.images)
+            {
+                string fileName = System.IO.Path.GetFileName(image.ToString());
+
+                this.ImageList.Items.Add(fileName);
+                this.ImageList.Tag = System.IO.Path.GetDirectoryName(image.ToString());
+            }
+        }
+
+        private void ImageList_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            string image = this.ImageList.SelectedItem as string;
+
+            string path = this.ImageList.Tag + @"\" + image;
+            Process.Start(path);
+        }
+
+        private void MenuItem_ImageFailed(object sender, ExceptionRoutedEventArgs e)
+        {
+
+        }
+
     }
 }
