@@ -68,5 +68,11 @@ namespace WpfApp1
             string path = this.ImageList.Tag + @"\" + image;
             Process.Start(path);
         }
+
+        private void MenuItem_ImageFailed(object sender, ExceptionRoutedEventArgs e)
+        {
+
+        }
+
     }
 }
