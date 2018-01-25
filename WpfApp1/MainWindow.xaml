@@ -34,5 +34,6 @@
                 </Grid>
             </TabItem>
         </TabControl>
+        <Button x:Name="button" Content="Button"/>
     </StackPanel>
 </Window>
