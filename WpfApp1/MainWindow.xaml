@@ -35,6 +35,9 @@
             </TabItem>
         </TabControl>
         <Button x:Name="button" Content="Button"/>
+<<<<<<< HEAD
         <Button x:Name="button1" Content="Button" Background="#FF33CB1B"/>
+=======
+>>>>>>> d1319f64a5c9c96de5be0b38a644545c7b6c761d
     </StackPanel>
 </Window>
