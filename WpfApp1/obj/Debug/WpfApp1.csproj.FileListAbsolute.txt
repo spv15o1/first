@@ -57,3 +57,4 @@ C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\student\Desktop\first\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\Users\student\Documents\GitHub\first\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\zorya\Desktop\first\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\student\Desktop\first\first\WpfApp1\bin\Debug\WpfApp1.exe.config
