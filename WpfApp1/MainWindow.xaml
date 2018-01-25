@@ -23,11 +23,14 @@
             </TabItem>
             <TabItem Header="Open Image" >
                 <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="135*"/>
+                        <ColumnDefinition Width="376*"/>
+                    </Grid.ColumnDefinitions>
                     <ListView Margin="5"                               
                               x:Name="ImageList"
                               MouseDoubleClick="ImageList_MouseDoubleClick" 
-                               Height="{Binding Path=ActualHeight,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Window}}}"
-                              />
+                               Height="{Binding Path=ActualHeight,RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Window}}}" Grid.ColumnSpan="2" />
                 </Grid>
             </TabItem>
         </TabControl>
